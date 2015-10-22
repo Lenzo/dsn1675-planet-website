@@ -41,7 +41,7 @@ body{
   display: block;
 }
 
-
+/*  lists   */
 ol{
   list-style-type: none;
   padding-left: 0;
@@ -59,3 +59,8 @@ a{
 
 }
 
+/*  headings   */
+
+h1{
+  margin: 0;
+}
