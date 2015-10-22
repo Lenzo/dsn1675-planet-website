@@ -18,3 +18,44 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body{
+  margin: 0;
+}
+
+.gutter{
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.gutter-left{
+	padding-left: 1.5rem;
+}
+
+.gutter-right{
+	padding-right: 1.5rem;
+}
+
+.img-flex{
+  width: 100%;
+  display: block;
+}
+
+
+ol{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 25em){
+
+  li{
+    display: inline-block;
+  }
+
+}
+
