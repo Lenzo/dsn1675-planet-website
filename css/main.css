@@ -48,9 +48,6 @@ nav{
 
 }
 
-
-
-
 /*  lists   */
 ol{
   list-style-type: none;
@@ -61,12 +58,16 @@ a{
   text-decoration: none;
 }
 
+dd{
+  font-size: 1.1250rem;
+  line-height: 1.2444;
+}
+
 @media only screen and (min-width: 25em){
 
   li{
     display: inline-block;
   }
-
 }
 
 /*  headings   */
