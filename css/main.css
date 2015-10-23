@@ -23,19 +23,6 @@ body{
   margin: 0;
 }
 
-.gutter{
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
-}
-
-.gutter-left{
-	padding-left: 1.5rem;
-}
-
-.gutter-right{
-	padding-right: 1.5rem;
-}
-
 .img-flex{
   width: 100%;
   display: block;
@@ -89,8 +76,18 @@ h1{
   text-align: center;
 }
 
-@media only screen and (min-width: 60em){
+@media only screen and (min-width: 38em){
   h1{
     text-align: left;
   }
+}
+
+
+
+.bg-grey{
+  background-color: #f0f0f0;
+}
+
+p{
+  margin-bottom: 0;
 }
