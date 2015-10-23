@@ -30,7 +30,7 @@ body{
 
 
 header{
-  background-color: #D0D0D0
+  background-color: grey
 }
 
 
@@ -54,7 +54,7 @@ nav{
 /*  lists   */
 ol{
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
 }
 
 a{
@@ -72,7 +72,6 @@ a{
 /*  headings   */
 
 h1{
-  margin: 0;
   text-align: center;
 }
 
@@ -82,12 +81,17 @@ h1{
   }
 }
 
+/*  colours  */
 
-
-.bg-grey{
-  background-color: #f0f0f0;
+.l-grey{
+  background-color: lightgrey
 }
 
-p{
-  margin-bottom: 0;
+.m-grey{
+  background-color: darkgrey;
 }
+
+.d-grey{
+  background-color: grey;
+}
+
