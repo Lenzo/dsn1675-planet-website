@@ -33,11 +33,38 @@ header{
   background-color: grey
 }
 
+a:link{
+  color: blue;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:visited{
+  color: inherit;
+}
+
+ol li:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+
 
 /*  nav  */
 
 nav{
   text-align: center;
+}
+
+.foot-nav{
+  text-align: left;
+  color: blue;
+}
+
+.foot-nav ol li{
+  display: inline;
 }
 
 @media only screen and (min-width: 38em){
@@ -56,6 +83,7 @@ ol{
 
 a{
   text-decoration: none;
+  width: 100%;
 }
 
 dd{
