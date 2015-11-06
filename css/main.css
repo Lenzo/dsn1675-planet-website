@@ -7,34 +7,21 @@ body{
   margin: 0;
 }
 
-.img-flex{
-  width: 100%;
-  display: block;
-}
 
+/*  nav  */
 
-a:link{
+header a{
   color: blue;
 }
 
-a:hover{
+header a:hover{
   color: #fff;
 }
 
-a:visited{
-  color: inherit;
-}
-
-ol li:hover{
+header ol li:hover{
   background-color: blue;
   color: #fff;
 }
-
-
-.4-grey{
-  background-color: #989898;  
-}
-/*  nav  */
 
 nav{
   text-align: center;
@@ -58,20 +45,13 @@ nav{
 }
 
 /*  lists   */
-ol{
-  list-style-type: none;
-  padding: 0;
-}
+
 
 a{
   text-decoration: none;
   width: 100%;
 }
 
-dd{
-  font-size: 1.1250rem;
-  line-height: 1.2444;
-}
 
 @media only screen and (min-width: 25em){
 

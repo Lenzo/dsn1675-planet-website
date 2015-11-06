@@ -23,3 +23,17 @@
 .blue{
 	color: blue;
 }
+
+/*link colors*/
+
+a{
+	color: blue;
+}
+
+a:hover{
+	color: white;
+}
+
+ol li:hover{
+	background-color: blue;
+}
